@@ -33,6 +33,8 @@ class SerwerSMS:
         self.api_url = 'https://api2.serwersms.pl/'
         
         self.format = 'json'
+		
+        self.client = 'client_python'
         
         self.test = ''
 
@@ -71,7 +73,8 @@ class SerwerSMS:
         
         tmp = {
             'username': self.username,
-            'password': self.password
+            'password': self.password,
+            'system': self.client
         }
         
         params.update(tmp)
