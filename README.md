@@ -139,3 +139,6 @@ Python 3.4.*
 
 ## Dokumentacja
 http://dev.serwersms.pl
+
+## Konsola API
+http://apiconsole.serwersms.pl
