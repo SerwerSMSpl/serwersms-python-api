@@ -91,7 +91,7 @@ class Message:
             param += ']|["'
 			
         if len(param) > 3:
-            param = param[:-3]
+            param = param[:-4]
 
         default = {
             'sender': sender,
