@@ -10,7 +10,7 @@ class File:
     * param string type - mms|voice
     * param array params
     *      option string "url" URL address to file
-    *      option resource "file" A file handler (only for MMS)
+    *      option resource "file" A file content (only for MMS)
     * return array
     *      option bool "success"
     *      option string "id"
