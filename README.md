@@ -1,7 +1,7 @@
 # SerwerSMS.pl Python Client API
 Klient Python do komunikacji zdalnej z API v2 SerwerSMS.pl
 
-W celu autoryzacji za pośrednictwem Tokenu API, należy wygenerować go po stronie Panelu Klienta w menu Ustawienia interfejsów → HTTPS API → Tokeny API. Format nagłówka autoryzacyjnego jest zgodna z formatem Bearer token.
+W celu autoryzacji za pośrednictwem Tokenu API, należy wygenerować go po stronie Panelu Klienta w menu Ustawienia interfejsów → HTTPS API → Tokeny API. Format nagłówka autoryzacyjnego jest zgodny z formatem Bearer token.
 
 #### Przykładowe wywołanie
 ```python
