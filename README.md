@@ -20,7 +20,7 @@ try:
         'details': 'true'
     }
 
-    response = api.message.send_sms('500600700', 'Test message', '', params)
+    response = api.message.send_sms('500600700', 'Test message', 'INFORMACJA', params)
 
     result = json.loads(response)
 
@@ -45,7 +45,7 @@ try:
         'details': 'true'
     }
 
-    response = api.message.send_sms('500600700', 'Test message', '', params)
+    response = api.message.send_sms('500600700', 'Test message', 'INFORMACJA', params)
     
     print(response)
     
@@ -117,7 +117,7 @@ try:
     params = {
         'phone': '500600700'
     }
-    response = api.message.recived('eco',params)
+    response = api.message.recived('ndi',params)
     
     print(response)
     
