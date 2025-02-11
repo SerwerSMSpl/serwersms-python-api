@@ -128,16 +128,32 @@ except Exception:
 
 ## Instalacja
 
-Po ściągnięciu paczki należy uruchomić procedurę instalacyjną
-modułu poprzez komendę :
+Wymagana jest dodatkowa instalacja poniższych modułów (setuptools, requests):
+
+```
+pip install --upgrade pip setuptools
+python -m pip install requests
+```
+
+Po ściągnięciu paczki (katalog 'serwersms') należy uruchomić procedurę instalacyjną poprzez komendę :
 
 ```
 python setup.py install
 ```
 
+Można także skorzystać z instalacji paczki z poziomu pip:
+
+```
+pip install serwersms-api
+```
+
+Szczegóły dostępne są pod adresem https://pypi.org/project/serwersms-api/
+
 
 ## Wymagania
-Python 3.4.*
+Python 3.12.*
+setuptools
+requests
 
 ## Dokumentacja
 http://dev.serwersms.pl
