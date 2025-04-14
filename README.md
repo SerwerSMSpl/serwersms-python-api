@@ -147,7 +147,7 @@ Można także skorzystać z instalacji paczki z poziomu pip:
 pip install serwersmsv2api
 ```
 
-Szczegóły dostępne są pod adresem https://pypi.org/project/serwersms-api/
+Szczegóły dostępne są pod adresem https://pypi.org/project/serwersmsv2api/
 
 
 ## Wymagania
