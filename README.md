@@ -144,7 +144,7 @@ python setup.py install
 Można także skorzystać z instalacji paczki z poziomu pip:
 
 ```
-pip install serwersms-api
+pip install serwersmsv2api
 ```
 
 Szczegóły dostępne są pod adresem https://pypi.org/project/serwersms-api/
