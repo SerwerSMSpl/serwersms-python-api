@@ -88,7 +88,7 @@ class Message:
             param += message['phone']
             param += ':'
             param += message['text']
-            param += ']|["'
+            param += ']|['
 			
         if len(param) > 3:
             param = param[:-4]
